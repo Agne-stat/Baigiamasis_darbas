@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstagramApp</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Open+Sans" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" href="instaStyle.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="nav">
+            <div class="instagram">
+                <div class="instaFoto">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="veticalLine"></div>
+                <div class="instaTitle">Instagram</div>
+            </div>
+            <div class="desktop">
+                <button class="search">
+                    <i class="fa fa-search search-icon"></i>
+                    Search</button>
+            </div>
+            <div class="logos">
+
+                <span class="logoCompass">
+                    <i class="far fa-compass"></i>
+                </span>
+
+                <span class="logoHeart">
+                    <i class="far fa-heart"></i>
+                </span>
+
+                <span class="logoUser">
+                    <i class="far fa-user"></i>
+                </span>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <div class="content">
+
+        <div class="card">
+
+            <div class="title">
+                <div class="img">
+                    <img class="fotoImg" src="THE BASIS OF ALL  [000129].jpg" alt="">
+                </div>
+                <div class="cardTitle">huffpost</div>
+            </div>
+
+            <div class="foto">
+                <img class="fotoImg" src="THE BASIS OF ALL  [000129].jpg" alt="">
+            </div>
+
+            <div class="info">
+
+                <div class="actions">
+
+                    <div class="icons2">
+                        <span class="heart active">
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <label class="comment" for="comments" onclick="focusMethod()">
+                            <i class="far fa-comment"></i>
+                        </label>
+                    </div>
+
+                    <span class="save">
+                        <i class="far fa-bookmark"></i>
+                    </span>
+
+
+
+                </div>
+
+                <div class="likes">
+                    <span class="likesCount">0</span>
+                    <span>likes</span>
+                </div>
+
+                <div class="comments">
+
+                    <div class="newComments">
+
+                    </div>
+
+                    <div class="addComment">
+                        <input id="comment" class="commentInput" type="text" placeholder="Add a comment...">
+
+                        <span class="dots">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="instaApp.js"></script>
+</body>
+
+</html>
